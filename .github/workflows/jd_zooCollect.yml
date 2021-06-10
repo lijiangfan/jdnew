@@ -39,8 +39,6 @@ jobs:
       - name: '运行'
         run: |
           node jd_zooCollect.js
-          sleep 10
-          node 123456.js
          
           
         env:
